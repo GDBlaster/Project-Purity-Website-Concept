@@ -6,11 +6,14 @@
 }
 
 html {
-    height: 200%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
     height: 100%;
+    width: 100%;
+    display: table;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -24,7 +27,7 @@ header.sticky {
   top: 0;
 }
 
-.main {
+main p  {
   margin-left: 5%;
   font-size: 110%;
   color:white;
@@ -92,4 +95,51 @@ li a:hover {
      height: 0;
      border-top: 46px solid #333;
      border-right: 100px solid transparent;
-   }
+}
+
+footer {
+  background-color: #111;
+    display: table-row;
+    height: 0;
+}
+
+#credits {
+  background-color: grey;
+  text-align: center;
+  position: relative;
+  top: 16px;
+}
+
+footer p  {
+  margin: auto;
+  display:table-cell
+  font-size: 110%;
+  color:white;
+  font-family: 'satella-regular';
+}
+
+.wrap {
+  display:table;width:100%
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active{
+  text-decoration: none;
+  color: grey;
+}
+#contact1{
+  margin-left: 15%;
+  width: 15%;
+  float: left;
+}
+#contact2{
+  width: 15%;
+  float: left;
+}
+.main-wraper{
+  min-height: 100vh;
+}
