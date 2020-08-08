@@ -4,9 +4,11 @@
        url('font/satellaregular-zvvaz-webfont.woff') format('woff'),
        url('font/satellaregular-zVVaz-webfont.ttf') format('truetype');
 }
+
 html {
     height: 200%;
 }
+
 body {
     height: 100%;
     margin: 0;
@@ -14,26 +16,80 @@ body {
     background-attachment: fixed;
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%);
-
 }
-div.sticky {
+
+header.sticky {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
 }
+
 .main {
   margin-left: 5%;
   font-size: 110%;
   color:white;
   font-family: 'satella-regular';
 }
+
+h1 {
+  margin-left: 5%;
+  font-size: 150%;
+  color:white;
+  font-family: 'satella-regular';
+}
+
 #banner{
   margin-left: -6%;
   width: 106%;
   z-index: -1;
 }
+
 .left {
   position: absolute;
   top: 40%;
   left: 16px;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: table-cell;
+}
+
+#header-margin{
+  margin-top: -5px;
+  z-index: 1;
+}
+
+ul :not(:last-child){
+  border-right: 1px solid #bbb;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+#spacer{
+  padding: 14px 16px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#triangle-topleft {
+     width: 0;
+     height: 0;
+     border-top: 46px solid #333;
+     border-right: 100px solid transparent;
+   }
