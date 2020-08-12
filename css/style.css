@@ -149,3 +149,42 @@ a:hover, a:active{
 .main-wraper{
   min-height: 100vh;
 }
+#flex-2{
+  display: flex;
+  flex-direction: row;
+  width: 99vw;
+  outline: solid 1px red;
+  min-height: 1000px;
+}
+#flex-3{
+  display: flex;
+  flex-direction: column;
+  outline: solid 1px red;
+  flex: 1;
+}
+
+#flex-4{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  outline: solid 1px red;
+  height: 300px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 257px;
+}
+#support-us{
+  margin: 5px;
+  border-radius: 25px;
+  background: #111;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+}
+#support-us-button{
+  display: block;
+  text-decoration: none;
+  padding: 2px;
+  background-color: rgba(9,9,121,0.75);
+}
