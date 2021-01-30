@@ -187,7 +187,11 @@ a:hover, a:active{
 }
 #support-us-button{
   display: block;
+  text-align: left;
+  margin: 0 auto;
   text-decoration: none;
   padding: 2px;
+  padding: 5px 10px;
   background-color: rgba(9,9,121,0.75);
+  border-radius: 10px;
 }
